@@ -1,0 +1,50 @@
+.ss-sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display:flex;
+    flex-direction: row;
+    min-width: 100px; 
+    width:15%;
+    background-color: #fff; 
+    z-index: 1000; 
+  }
+  
+  .ss-side-navbar {
+    padding: 10px;
+    margin-left: 5px; 
+  }
+  
+  .logo img {
+    width: 50px; 
+    height: auto; 
+  }
+  
+  .section-title {
+    font-size: 18px; 
+    font-weight: bold;
+    margin-top: 20px; 
+  }
+  
+  .section-sub-title {
+    font-size: 16px; 
+    font-weight: bold;
+    margin-top: 20px; 
+  }
+  
+  .profile-name {
+    display: flex;
+    align-items: center;
+    margin-top: 15px; 
+  }
+  
+  .profile-img {
+    width: 35px; 
+    height: auto;
+    margin-right: 5px; 
+  }
+  
+
+
+  

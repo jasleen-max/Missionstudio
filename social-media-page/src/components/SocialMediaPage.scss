@@ -1,0 +1,11 @@
+.social-media-page {
+  display: flex;
+  width: 70%;
+  margin-left:20%;
+  margin: 0 auto;
+
+  @media (max-width: 1024px) {
+    width:auto;
+    margin-left: 10%; 
+  }
+}

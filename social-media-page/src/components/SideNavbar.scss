@@ -1,0 +1,69 @@
+
+.side-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 33px 38px 33px 38px; 
+  width: 10%;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 1025px) {
+    display:none
+   }
+
+  a {
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 15px;
+    width:100%;
+    padding: 1px;
+    border-radius: 4px;
+    font-size: 18px;
+
+    &:hover {
+      background-color: #555;
+    }
+  }
+
+  .active-link {
+    background-color: #555;
+  }
+  .logo{
+    width:35 px;
+    height:30px;
+  }
+  .section-title{
+  width: 200px;
+  height:30px;
+  font-size: larger;
+
+margin-top: 140px;
+font-weight:bold;
+margin-bottom:30px;
+  
+  }
+  .section-sub-title{
+    width: 200px;
+  height: 20px;
+  
+  font-size: large;
+  font-weight: bold;
+margin-top: 40px;
+font-weight: 600;
+margin-bottom: 20px;
+  
+  }
+  .profile-name{
+    display: flex;
+    flex-direction: row;
+  
+    align-items: center;
+  }
+  .profile-img{
+    margin-right: 10px;
+  }
+}
